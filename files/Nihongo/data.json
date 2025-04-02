@@ -1,0 +1,23 @@
+{
+  "vocab": {
+    "noun": [
+      ["緑_みどり", "Green, Greenery", [["この/町_まち/には/緑_みどり/がたくさんあります", "There's a lot of greenery in this town"], ["あの/町_まち/は/緑_みどり/を/増_ふ/やしています", "That town is increasing its greenery"]]],
+      ["時_とき", "Time, moment", [["時_とき/の/経_た/つのは/早_はや/い", "Time flies"], ["あの/時_とき/、/私_わたし/はまだ/学_がく/生_せい/でした", "At that time, I was still a student"]]],
+      ["女_おんな/の/子_こ", "Girl", [["あの/女_おんな/の/子_こ/を/知_し/っていますか", "Do you know that girl?"], ["彼_かの/女_じょ/は/普_ふ/通_つう/の/女_おんな/の/子_こ/だ", "She's just a normal girl"]]]
+      
+    ],
+    
+    "adjective": [
+      ["狭_せま/い", "Narrow, small", [["私_わたし/の/部_へ/屋_や/はとても/狭_せま/い", "My room is very small"], ["新_あたら/しいオフィスは/狭_せま/いです", "The new office is small"]]]
+    ],
+    
+    "verb": [
+      ["探_さが/す", "To search for, Look for (someone or something one wants)", [["彼_かれ/は/郵_ゆう/便_びん/局_きょく/を/探_さが/してました", "He was looking for the post office"], ["私_わたし/は/犬_いぬ/を/探_さが/してます", "I'm looking for my dog"]]],
+      ["笑_わら/う", "To laugh, smile", [["赤_あか/ん/坊_ぼう/が/笑_わら/っています", "The baby is smiling"], ["妹_いもうと/はよく/笑_わら/います", "My little sister laughs a lot"]]]
+    ],
+    
+    "adverb": [
+      ["かなり", "Fairly, rather", [["彼_かれ/はかなり/英_えい/語_ご/が/上_じょう/手_ず/です", "His english is pretty good"], ["この/問_もん/題_だい/はかなり/易_やさ/しいです", "This problem is fairly easy"]]] 
+    ]
+  }
+}
