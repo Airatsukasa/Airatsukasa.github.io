@@ -19,7 +19,7 @@ const data = [
     {
         repo: "T-rex Runner Game",
         page: true
-    },
+    }
 ];
 
 
