@@ -1,6 +1,10 @@
 
 const data = [
     {
+        repo: "Nihongo",
+        page: true
+    },
+    {
         repo: "Typing Speedo",
         page: true
     },
