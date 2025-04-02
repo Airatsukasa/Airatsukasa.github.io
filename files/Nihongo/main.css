@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(117,154,184);
+}
+
+:root {
+  --font-title: "Lora";
+  --font-heading: "Literata";
+  --font-sub-heading: "Merriweather";
+  --primary-font-color: rgb(255, 255, 255);
+}
+
+body {
+  background: #041422;
+  background: #0D1017;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+}
+
+.title {
+  color: #0f86ee;
+  font-family: var(--font-title);
+}
+.heading {
+  color: #ffffff;
+  font-family: var(--font-heading);
+}
+.sub-heading {
+  color: #dceefd;
+  font-family: var(--font-sub-heading);
+  margin: 20px 0;
+}
+
+.word {
+  position: relative;
+  font-family: "Iansui";
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.sentences .word {
+  font-size: 20px;
+}
+.sentences .word span {
+  color: rgba(255,255,255,0.8);
+}
+.sentences .translation,
+.sentences .furigana
+{
+  color: rgba(255,255,255,0.6);
+}
+.sentences .furigana {
+  font-size: 8px;
+}
+.sentences .translation {
+  font-size: 12px;
+}
+
+#vocab-section span, div, div span {
+  color: var(--primary-font-color);
+}
+.kanji {
+  position: relative;
+}
+.furigana {
+  position: absolute;
+  top: -10px;
+  white-space: nowrap;
+  font-size: 11px;
+  left: 0; 
+  right: 0; 
+  margin-inline: auto; 
+  width: fit-content;
+  color: rgba(220,238,253,0.9);
+  color: rgba(255,255,255,0.9);
+  user-select: none;
+}
+.meaning {
+  color: rgba(255,255,255,0.7);
+}
+.word-idx {
+  position: absolute;
+  right: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Iansui";
+  color: rgba(255,255,255,0.1);
+}
+
+.word-desc {
+  margin-top: 5px;
+}
+
+.rule {
+  width: 95%;
+  height: 1px;
+  background: rgba(255,255,255,0.05);
+  margin-top: 20px;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
+  @page {
+    margin: -1px;
+  }
+}
