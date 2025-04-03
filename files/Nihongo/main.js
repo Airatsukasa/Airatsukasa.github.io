@@ -1,4 +1,4 @@
-fetch("https://raw.githack.com/Airatsukasa/Airatsukasa.github.io/refs/heads/main/files/Nihongo/data.json").then(response => {
+fetch("https://raw.githack.com/N-6051/N-6051.github.io/refs/heads/main/files/Nihongo/data.json").then(response => {
   return response.json();
 }).then(data => {
   init(data);
